@@ -1,12 +1,11 @@
-import Menu from "./Menu/Menu";
-import Slider from "./Slider/Slider";
-import Popular from "./Popular/Popular";
-import Card_slider from "./Popular/Card_slider";
-import FreeContent from "./FreeContent/FreeContent";
-import OnlineCinema from "./OnlineCinema/OnlineCinema";
-import UserComments from "./UserComments/UserComments";
-import FaqApi from "./Faq/FaqApi";
-import Footer from "./Footer/Footer";
+import Menu from "./Menu";
+import Slider from "./Slider";
+import Popular from "./Popular";
+import FreeContent from "./FreeContent";
+import OnlineCinema from "./OnlineCinema";
+import UserComments from "./UserComments";
+import FaqApi from "./FaqApi";
+import Footer from "./Footer";
 
 function generateSlider() {
   var swiper = new Swiper(".mySwiper", {
